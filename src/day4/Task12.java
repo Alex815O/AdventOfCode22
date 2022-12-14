@@ -32,7 +32,6 @@ public class Task12 {
             }
             if (range1.overlap(range2)){
                 anzOverlaping++;
-                System.out.println(range1 +" --> " + range2);
             }
         }
         System.out.println("Fully contain: " + anzContaining);
